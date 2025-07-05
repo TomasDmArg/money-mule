@@ -2,11 +2,11 @@
 
 import { useEffect, useState } from 'react';
 
-import { ProjectGrid } from '@/app/components/dashboard/ProjectGrid';
-import { ProjectModal } from '@/app/components/dashboard/ProjectModal';
-import { ProjectUploadForm } from '@/app/components/dashboard/ProjectUploadForm';
-import { DashboardNav } from '@/app/components/navigation/DashboardNav';
-import { ProjectAnalysis } from '@/app/types/project';
+import { ProjectGrid } from '@/components/components/dashboard/ProjectGrid';
+import { ProjectModal } from '@/components/components/dashboard/ProjectModal';
+import { ProjectUploadForm } from '@/components/components/dashboard/ProjectUploadForm';
+import { DashboardNav } from '@/components/components/navigation/DashboardNav';
+import { ProjectAnalysis } from '@/types/project';
 
 // Configure API URL from environment variables
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://backend.moneymule.xyz';

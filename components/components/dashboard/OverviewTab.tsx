@@ -2,9 +2,9 @@
 
 import { AlertTriangle, Award, Shield, Target } from 'lucide-react';
 
-import { ProjectResult } from '@/app/types/project';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
+import { ProjectResult } from '@/types/project';
 
 interface OverviewTabProps {
     result: ProjectResult;

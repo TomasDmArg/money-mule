@@ -2,8 +2,8 @@
 
 import { DollarSign } from 'lucide-react';
 
-import { CompetitorAnalysis, DetailedAnalysis } from '@/app/types/project';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { CompetitorAnalysis, DetailedAnalysis } from '@/types/project';
 
 interface AnalysisTabProps {
     detailedAnalysis?: DetailedAnalysis;

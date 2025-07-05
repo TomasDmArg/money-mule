@@ -2,9 +2,9 @@
 
 import { Github, Linkedin, Twitter, Users } from 'lucide-react';
 
-import { Founder } from '@/app/types/project';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Founder } from '@/types/project';
 
 interface TeamTabProps {
     founders?: Founder[];

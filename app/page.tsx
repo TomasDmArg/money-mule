@@ -2,12 +2,12 @@
 
 import { MainLayout } from '@/components/templates/main-layout';
 
-import { FeaturesSection } from './components/landing/FeaturesSection';
-import { FinalCTASection } from './components/landing/FinalCTASection';
-import { HeroSection } from './components/landing/HeroSection';
-import { LogoNavbar } from './components/landing/LogoNavbar';
-import { PricingSection } from './components/landing/PricingSection';
-import { ProblemSection } from './components/landing/ProblemSection';
+import { FeaturesSection } from '../components/components/landing/FeaturesSection';
+import { FinalCTASection } from '../components/components/landing/FinalCTASection';
+import { HeroSection } from '../components/components/landing/HeroSection';
+import { LogoNavbar } from '../components/components/landing/LogoNavbar';
+import { PricingSection } from '../components/components/landing/PricingSection';
+import { ProblemSection } from '../components/components/landing/ProblemSection';
 
 export default function Home() {
     return (
