@@ -157,10 +157,11 @@ export function PricingSection() {
                                             <Button
                                                 variant={plan.buttonVariant}
                                                 size='lg'
-                                                className={`w-full ${plan.popular
+                                                className={`w-full ${
+                                                    plan.popular
                                                         ? 'bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white'
                                                         : 'border-blue-600 text-blue-700 hover:bg-blue-50'
-                                                    } flex items-center justify-center gap-2`}
+                                                } flex items-center justify-center gap-2`}
                                             >
                                                 {plan.buttonText}
                                                 <ArrowRight className='w-4 h-4' />

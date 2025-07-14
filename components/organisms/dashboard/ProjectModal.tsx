@@ -2,9 +2,9 @@
 
 import { TrendingUp } from 'lucide-react';
 
-import { ProjectAnalysis } from '@/types/project';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { ProjectAnalysis } from '@/types/project';
 
 import { AnalysisTab } from './AnalysisTab';
 import { FollowupTab } from './FollowupTab';

@@ -73,10 +73,11 @@ export function ProjectGrid({ projects, onProjectClick }: ProjectGridProps) {
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.3 }}
-                                className={`border rounded-lg p-4 transition-all ${project.status === 'completed'
+                                className={`border rounded-lg p-4 transition-all ${
+                                    project.status === 'completed'
                                         ? 'hover:shadow-md cursor-pointer hover:bg-gray-50'
                                         : 'bg-gray-50'
-                                    }`}
+                                }`}
                                 onClick={() => onProjectClick(project)}
                             >
                                 <div className='flex items-start justify-between mb-3'>

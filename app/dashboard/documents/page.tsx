@@ -188,8 +188,9 @@ const DocumentCard = ({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
-            className={`border rounded-lg p-4 transition-all ${isClickable ? 'hover:shadow-md cursor-pointer hover:bg-gray-50' : 'bg-gray-50'
-                }`}
+            className={`border rounded-lg p-4 transition-all ${
+                isClickable ? 'hover:shadow-md cursor-pointer hover:bg-gray-50' : 'bg-gray-50'
+            }`}
             onClick={() => onClick(document)}
         >
             <div className='flex items-start justify-between mb-3'>
