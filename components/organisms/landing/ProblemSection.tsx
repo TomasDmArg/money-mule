@@ -50,10 +50,10 @@ export function ProblemSection() {
             stat: '3 min',
             statDesc: 'Document review time',
             cardClass:
-                'bg-gradient-to-br from-green-50 to-green-100 border-green-200 hover:shadow-xl transform hover:-translate-y-1',
-            titleClass: 'text-green-700',
-            iconBg: 'bg-green-100',
-            iconColor: 'text-green-600',
+                'bg-gradient-to-br from-blue-50 to-blue-100 border-blue-200 hover:shadow-xl transform hover:-translate-y-1',
+            titleClass: 'text-blue-700',
+            iconBg: 'bg-blue-100',
+            iconColor: 'text-blue-600',
         },
     ];
 

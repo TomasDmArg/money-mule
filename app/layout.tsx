@@ -10,8 +10,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: 'MoneyMule | Invest smarter',
-    description: 'Save time and money with MoneyMule, your AI research assistant',
+    title: 'VenturePilot | Invest smarter',
+    description: 'Save time and money with VenturePilot, your AI research assistant',
 };
 
 export default function RootLayout({

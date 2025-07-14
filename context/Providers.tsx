@@ -15,44 +15,46 @@ export default function Providers({ children }: { children: React.ReactNode }) {
                 supportedChains: [
                     {
                         id: 2751721147387000,
-                        name: 'moneymule',
-                        network: 'moneymule',
+                        name: 'venturepilot',
+                        network: 'venturepilot',
                         nativeCurrency: {
-                            name: 'mule',
-                            symbol: 'mule',
+                            name: 'pilot',
+                            symbol: 'pilot',
                             decimals: 18,
                         },
                         rpcUrls: {
                             default: {
-                                http: ['https://moneymule-2751721147387000-1.jsonrpc.sagarpc.io'],
+                                http: [
+                                    'https://venturepilot-2751721147387000-1.jsonrpc.sagarpc.io',
+                                ],
                             },
                         },
                         blockExplorers: {
                             default: {
                                 name: 'Saga Explorer',
-                                url: 'https://moneymule-2751721147387000-1.sagaexplorer.io:443',
+                                url: 'https://venturepilot-2751721147387000-1.sagaexplorer.io:443',
                             },
                         },
                     },
                 ],
                 defaultChain: {
                     id: 2751721147387000,
-                    name: 'moneymule',
-                    network: 'moneymule',
+                    name: 'venturepilot',
+                    network: 'venturepilot',
                     nativeCurrency: {
-                        name: 'mule',
-                        symbol: 'mule',
+                        name: 'pilot',
+                        symbol: 'pilot',
                         decimals: 18,
                     },
                     rpcUrls: {
                         default: {
-                            http: ['https://moneymule-2751721147387000-1.jsonrpc.sagarpc.io'],
+                            http: ['https://venturepilot-2751721147387000-1.jsonrpc.sagarpc.io'],
                         },
                     },
                     blockExplorers: {
                         default: {
                             name: 'Saga Explorer',
-                            url: 'https://moneymule-2751721147387000-1.sagaexplorer.io:443',
+                            url: 'https://venturepilot-2751721147387000-1.sagaexplorer.io:443',
                         },
                     },
                 },

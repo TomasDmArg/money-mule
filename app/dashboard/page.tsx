@@ -9,7 +9,7 @@ import { DashboardNav } from '@/components/organisms/navigation/DashboardNav';
 import { ProjectAnalysis } from '@/types/project';
 
 // Configure API URL from environment variables
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://backend.moneymule.xyz';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://backend.venturepilot.xyz';
 
 export default function DashboardPage() {
     const [projects, setProjects] = useState<ProjectAnalysis[]>([]);

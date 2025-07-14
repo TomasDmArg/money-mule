@@ -1,4 +1,4 @@
-# MoneyMule Frontend 🌐
+# VenturePilot Frontend 🌐
 
 ![](https://img.shields.io/badge/Next.js-informational?style=flat&logo=next.js&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/React-informational?style=flat&logo=react&logoColor=white&color=6aa6f8)
@@ -7,19 +7,19 @@
 ![](https://img.shields.io/badge/Ethers.js-informational?style=flat&logo=ethereum&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Framer_Motion-informational?style=flat&logo=framer&logoColor=white&color=6aa6f8)
 
-A modern web application for MoneyMule's milestone-based funding platform and investor tools. Built with Next.js, React, and Web3 integration for seamless blockchain interactions.
+A modern web application for VenturePilot's milestone-based funding platform and investor tools. Built with Next.js, React, and Web3 integration for seamless blockchain interactions.
 
-## 🏗️ MoneyMule Ecosystem
+## 🏗️ VenturePilot Ecosystem
 
-| Repository                                                                | Description                                         | Status    |
-| ------------------------------------------------------------------------- | --------------------------------------------------- | --------- |
-| **[Frontend](https://github.com/TomasDmArg/money-mule)**                  | Next.js web application with React & Tailwind CSS   | ✅ Active |
-| **[Backend](https://github.com/TomasDmArg/money-mule-backend)**           | AI Multiagent system for deck and document analysis | ✅ Active |
-| **[Smart Contracts](https://github.com/TomasDmArg/money-mule-contracts)** | Solidity contracts with Hardhat & TypeScript        | ✅ Active |
+| Repository                                                                  | Description                                         | Status    |
+| --------------------------------------------------------------------------- | --------------------------------------------------- | --------- |
+| **[Frontend](https://github.com/TomasDmArg/venturepilot)**                  | Next.js web application with React & Tailwind CSS   | ✅ Active |
+| **[Backend](https://github.com/TomasDmArg/venturepilot-backend)**           | AI Multiagent system for deck and document analysis | ✅ Active |
+| **[Smart Contracts](https://github.com/TomasDmArg/venturepilot-contracts)** | Solidity contracts with Hardhat & TypeScript        | ✅ Active |
 
 ## 🌟 Overview
 
-MoneyMule Frontend provides an intuitive interface for AI-powered investor tools and project analysis platform. The application combines intelligent investment analysis with advanced document processing, enabling investors to make data-driven decisions through comprehensive AI-powered pitch deck and document analysis.
+VenturePilot Frontend provides an intuitive interface for AI-powered investor tools and project analysis platform. The application combines intelligent investment analysis with advanced document processing, enabling investors to make data-driven decisions through comprehensive AI-powered pitch deck and document analysis.
 
 ## 🏗️ Architecture
 
@@ -46,7 +46,7 @@ graph TB
     end
 
     subgraph "Blockchain"
-        Factory[MoneyMule Factory]
+        Factory[VenturePilot Factory]
         Rounds[Funding Rounds]
         Tokens[ERC20 Tokens]
     end
@@ -147,8 +147,8 @@ graph TB
 
 ```bash
 # Clone the repository
-git clone https://github.com/TomasDmArg/money-mule.git
-cd money-mule
+git clone https://github.com/TomasDmArg/venturepilot.git
+cd venturepilot
 
 # Install dependencies
 bun install
@@ -161,7 +161,7 @@ cp .env.example .env.local
 
 ```env
 # API Configuration
-NEXT_PUBLIC_API_URL=https://backend.moneymule.xyz
+NEXT_PUBLIC_API_URL=https://backend.venturepilot.xyz
 
 # Smart Contract Addresses
 NEXT_PUBLIC_FACTORY_ADDRESS=0xa1820208Dff37B39a8a324e82E3449283e21703b
@@ -169,8 +169,8 @@ NEXT_PUBLIC_USDC_ADDRESS=0xA2bE65F0Bfb810eF7B17807F3cd10D428f989A4a
 
 # Network Configuration
 NEXT_PUBLIC_CHAIN_ID=2751721147387000
-NEXT_PUBLIC_RPC_URL=https://moneymule-2751721147387000-1.jsonrpc.sagarpc.io
-NEXT_PUBLIC_EXPLORER_URL=https://moneymule-2751721147387000-1.sagaexplorer.io
+NEXT_PUBLIC_RPC_URL=https://venturepilot-2751721147387000-1.jsonrpc.sagarpc.io
+NEXT_PUBLIC_EXPLORER_URL=https://venturepilot-2751721147387000-1.sagaexplorer.io
 ```
 
 ### **Development**
@@ -219,20 +219,20 @@ bun run test:e2e
 
 ```bash
 # Build development image
-docker build -t moneymule-frontend:dev .
+docker build -t venturepilot-frontend:dev .
 
 # Run development container
-docker run -p 3000:3000 moneymule-frontend:dev
+docker run -p 3000:3000 venturepilot-frontend:dev
 ```
 
 ### **Production**
 
 ```bash
 # Build production image
-docker build -t moneymule-frontend:prod --target production .
+docker build -t venturepilot-frontend:prod --target production .
 
 # Run production container
-docker run -p 3000:3000 moneymule-frontend:prod
+docker run -p 3000:3000 venturepilot-frontend:prod
 ```
 
 ## 📱 User Flows

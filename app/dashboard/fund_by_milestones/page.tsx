@@ -180,7 +180,7 @@ export default function FundProjectPage() {
                                     <span className='text-green-800'>
                                         Transaction submitted:
                                         <a
-                                            href={`https://moneymule-2751721147387000-1.sagaexplorer.io:443/tx/${transactionHash}`}
+                                            href={`https://venturepilot-2751721147387000-1.sagaexplorer.io:443/tx/${transactionHash}`}
                                             target='_blank'
                                             rel='noopener noreferrer'
                                             className='ml-2 underline hover:no-underline'

@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { faucetHelpers } from '@/lib/supabase';
 
 // Network configuration
-const SAGA_CHAINLET_RPC = 'https://moneymule-2751721147387000-1.jsonrpc.sagarpc.io';
+const SAGA_CHAINLET_RPC = 'https://venturepilot-2751721147387000-1.jsonrpc.sagarpc.io';
 
 // Token amounts (in wei)
 const MULE_AMOUNT = ethers.parseEther('1'); // 1 MULE (native token like ETH)

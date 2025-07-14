@@ -2,7 +2,7 @@ import { ethers } from 'ethers';
 
 import { CONTRACTS, DEFAULT_JURY_ADDRESSES } from './constants';
 
-// MoneyMuleFactory ABI
+// VenturePilotFactory ABI
 export const MONEY_MULE_FACTORY_ABI = [
     {
         inputs: [
@@ -526,7 +526,7 @@ export async function testCreateFundingRound(
             } catch (highGasError) {
                 // The issue is likely with contract deployment or MoneyMuleRound constructor
                 throw new Error(
-                    'MoneyMuleRound contract deployment is failing. Possible causes: contract not deployed, constructor validation issues, gas limits exceeded, or missing dependencies.'
+                    'VenturePilotRound contract deployment is failing. Possible causes: contract not deployed, constructor validation issues, gas limits exceeded, or missing dependencies.'
                 );
             }
         }

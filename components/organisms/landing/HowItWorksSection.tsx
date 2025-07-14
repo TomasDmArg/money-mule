@@ -36,18 +36,18 @@ export function HowItWorksSection() {
             description:
                 'Advanced algorithms assess founder reputation, project viability, market potential, and key follow up questions.',
             number: '02',
-            color: 'text-green-600',
-            bgColor: 'bg-green-50',
-            borderColor: 'border-green-200',
+            color: 'text-blue-600',
+            bgColor: 'bg-blue-50',
+            borderColor: 'border-blue-200',
         },
         {
             icon: <Target className='w-8 h-8' />,
             title: 'Risk Assessment',
             description: 'Risk analysis for investment documents and projects information.',
             number: '03',
-            color: 'text-purple-600',
-            bgColor: 'bg-purple-50',
-            borderColor: 'border-purple-200',
+            color: 'text-blue-600',
+            bgColor: 'bg-blue-50',
+            borderColor: 'border-blue-200',
         },
         {
             icon: <Rocket className='w-8 h-8' />,
@@ -55,9 +55,9 @@ export function HowItWorksSection() {
             description:
                 'Track portfolio performance, milestone progress, and risk metrics automatically with real-time alerts and reporting.',
             number: '04',
-            color: 'text-orange-600',
-            bgColor: 'bg-orange-50',
-            borderColor: 'border-orange-200',
+            color: 'text-blue-600',
+            bgColor: 'bg-blue-50',
+            borderColor: 'border-blue-200',
         },
     ];
 
@@ -71,13 +71,13 @@ export function HowItWorksSection() {
                     viewport={{ once: true, amount: 0.3 }}
                     variants={fadeInUp}
                 >
-                    <div className='inline-flex items-center px-4 py-2 rounded-full bg-green-100 text-green-700 text-sm font-medium mb-4'>
+                    <div className='inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4'>
                         <Zap className='w-4 h-4 mr-2' />
                         How It Works
                     </div>
                     <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6'>
                         Streamline Your Investment Process
-                        <span className='text-green-600 block'>In Four Simple Steps</span>
+                        <span className='text-blue-600 block'>In Four Simple Steps</span>
                     </h2>
                     <p className='text-xl text-gray-600 max-w-3xl mx-auto'>
                         Our AI-powered platform helps investors make faster, smarter decisions while
@@ -93,7 +93,7 @@ export function HowItWorksSection() {
                     variants={staggerChildren}
                 >
                     {/* Connection lines for desktop */}
-                    <div className='hidden lg:block absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-200 via-green-200 via-purple-200 to-orange-200 z-0' />
+                    <div className='hidden lg:block absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-200 via-blue-300 via-blue-400 to-blue-500 z-0' />
 
                     {steps.map((step, index) => (
                         <motion.div key={step.title} variants={fadeInUp} className='relative z-10'>

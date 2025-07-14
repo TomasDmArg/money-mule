@@ -103,13 +103,7 @@ function MobileNavMenu({ pathname }: { pathname: string }) {
             <SheetContent side='right' className='w-[300px] sm:w-[400px]'>
                 <SheetHeader>
                     <SheetTitle className='flex items-center gap-2'>
-                        <Image
-                            src='https://files.invicta.capital/u/mule_1260.svg'
-                            alt='Money Mule Logo'
-                            width={24}
-                            height={24}
-                        />
-                        <span className='font-semibold text-gray-900'>Money Mule</span>
+                        <Image src='/logo.svg' alt='VenturePilot Logo' width={120} height={34} />
                     </SheetTitle>
                 </SheetHeader>
                 <nav className='flex flex-col gap-4 mt-8'>
@@ -157,14 +151,14 @@ export function DashboardNav() {
                 <div className='container mx-auto flex items-center justify-between'>
                     <div className='flex items-center gap-2'>
                         <Image
-                            src='https://files.invicta.capital/u/mule_1260.svg'
-                            alt='Money Mule Logo'
-                            width={24}
-                            height={24}
-                            className='w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8'
+                            src='/logo.svg'
+                            alt='VenturePilot Logo'
+                            width={120}
+                            height={34}
+                            className='w-20 h-6 sm:w-24 sm:h-7 lg:w-32 lg:h-9'
                         />
                         <span className='font-semibold text-gray-900 text-sm sm:text-base lg:text-lg xl:text-xl'>
-                            Money Mule
+                            VenturePilot
                         </span>
                     </div>
                     <div className='flex items-center gap-4'>
@@ -186,15 +180,12 @@ function DashboardNavContent({ pathname }: { pathname: string }) {
                 {/* Logo - responsive sizing */}
                 <div className='flex items-center gap-2'>
                     <Image
-                        src='https://files.invicta.capital/u/mule_1260.svg'
-                        alt='Money Mule Logo'
-                        width={24}
-                        height={24}
-                        className='w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 2xl:w-10 2xl:h-10'
+                        src='/logo.svg'
+                        alt='VenturePilot Logo'
+                        width={120}
+                        height={34}
+                        className='w-20 h-6 sm:w-24 sm:h-7 lg:w-32 lg:h-9 2xl:w-40 2xl:h-11'
                     />
-                    <span className='font-semibold text-gray-900 text-sm sm:text-base lg:text-lg xl:text-xl 2xl:text-2xl'>
-                        Money Mule
-                    </span>
                 </div>
 
                 {/* Desktop Navigation - hidden on mobile/small tablet */}

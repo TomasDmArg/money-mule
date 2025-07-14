@@ -32,9 +32,9 @@ export function FeaturesSection() {
             icon: <Target className='w-8 h-8' />,
             title: 'Milestone-Based Funding',
             desc: 'Automated funding releases based on verified milestone completion, reducing risk and ensuring progress',
-            color: 'text-green-600',
-            bgColor: 'bg-green-50',
-            borderColor: 'border-green-200',
+            color: 'text-blue-600',
+            bgColor: 'bg-blue-50',
+            borderColor: 'border-blue-200',
         },
         {
             icon: <FileText className='w-8 h-8' />,
@@ -80,13 +80,13 @@ export function FeaturesSection() {
                     viewport={{ once: true, amount: 0.3 }}
                     variants={fadeInUp}
                 >
-                    <div className='inline-flex items-center px-4 py-2 rounded-full bg-green-100 text-green-700 text-sm font-medium mb-4'>
+                    <div className='inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4'>
                         <Zap className='w-4 h-4 mr-2' />
                         Powerful Features
                     </div>
                     <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6'>
                         Everything You Need for
-                        <span className='text-green-600 block'>Smart Investing</span>
+                        <span className='text-blue-600 block'>Smart Investing</span>
                     </h2>
                     <p className='text-xl text-gray-600 max-w-3xl mx-auto'>
                         Our comprehensive platform combines AI-powered analytics, automated

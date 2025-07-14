@@ -55,5 +55,5 @@ export function formatTimeRemaining(hoursLeft: number): string {
  * Get explorer URL for transaction
  */
 export function getTransactionUrl(hash: string): string {
-    return `https://moneymule-2751721147387000-1.sagaexplorer.io:443/tx/${hash}`;
+    return `https://venturepilot-2751721147387000-1.sagaexplorer.io:443/tx/${hash}`;
 }

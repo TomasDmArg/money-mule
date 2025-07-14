@@ -27,7 +27,7 @@ export function HeroSection() {
     return (
         <section className='w-full relative overflow-hidden'>
             {/* Background gradient */}
-            <div className='absolute inset-0 bg-gradient-to-br from-green-50 via-green-100 to-green-200' />
+            <div className='absolute inset-0 bg-gradient-to-br from-blue-50 via-blue-100 to-blue-200' />
 
             {/* Hero content */}
             <LogoNavbar />
@@ -43,8 +43,8 @@ export function HeroSection() {
                     >
                         <motion.div variants={fadeInUp} className='space-y-4'>
                             <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight'>
-                                <span className='text-green-600 block'>Avoid</span>
-                                Shitty Investments
+                                <span className='text-blue-600 block'>Navigate</span>
+                                Smart Investments
                             </h1>
                             <p className='text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0'>
                                 Revolutionize your investment strategy with AI-powered analysis,
@@ -78,7 +78,7 @@ export function HeroSection() {
                             <Link href='/dashboard' className='w-full lg:w-auto'>
                                 <Button
                                     size='lg'
-                                    className='w-full lg:w-auto bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-4 text-lg font-semibold flex items-center justify-center gap-2'
+                                    className='w-full lg:w-auto bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 text-lg font-semibold flex items-center justify-center gap-2'
                                 >
                                     Start Free Trial
                                     <ArrowRight className='w-5 h-5' />
@@ -88,7 +88,7 @@ export function HeroSection() {
                                 <Button
                                     size='lg'
                                     variant='outline'
-                                    className='w-full lg:w-auto border-green-600 text-green-700 hover:bg-green-50 px-8 py-4 text-lg font-semibold'
+                                    className='w-full lg:w-auto border-blue-600 text-blue-700 hover:bg-blue-50 px-8 py-4 text-lg font-semibold'
                                 >
                                     Browse Projects
                                 </Button>
@@ -100,11 +100,11 @@ export function HeroSection() {
                             className='flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-2 sm:space-y-0 sm:space-x-4 text-sm text-gray-600'
                         >
                             <div className='flex items-center space-x-2'>
-                                <CheckCircle className='w-4 h-4 text-green-600' />
+                                <CheckCircle className='w-4 h-4 text-blue-600' />
                                 <span>No credit card required</span>
                             </div>
                             <div className='flex items-center space-x-2'>
-                                <CheckCircle className='w-4 h-4 text-green-600' />
+                                <CheckCircle className='w-4 h-4 text-blue-600' />
                                 <span>14-day free trial</span>
                             </div>
                         </motion.div>
@@ -120,11 +120,11 @@ export function HeroSection() {
                     >
                         <div className='relative z-10 space-y-6'>
                             {/* Main feature card */}
-                            <Card className='bg-white/80 backdrop-blur-sm shadow-xl border-green-200'>
+                            <Card className='bg-white/80 backdrop-blur-sm shadow-xl border-blue-200'>
                                 <CardContent className='p-6'>
                                     <div className='flex items-center justify-between mb-4'>
                                         <div className='flex items-center space-x-3'>
-                                            <div className='w-10 h-10 bg-green-600 rounded-full flex items-center justify-center'>
+                                            <div className='w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center'>
                                                 <TrendingUp className='w-5 h-5 text-white' />
                                             </div>
                                             <div>
@@ -137,7 +137,7 @@ export function HeroSection() {
                                             </div>
                                         </div>
                                         <div className='text-right'>
-                                            <div className='text-2xl font-bold text-green-600'>
+                                            <div className='text-2xl font-bold text-blue-600'>
                                                 +127%
                                             </div>
                                             <div className='text-sm text-gray-600'>
@@ -147,7 +147,7 @@ export function HeroSection() {
                                     </div>
                                     <div className='w-full bg-gray-200 rounded-full h-2'>
                                         <div
-                                            className='bg-gradient-to-r from-green-600 to-green-700 h-2 rounded-full'
+                                            className='bg-gradient-to-r from-blue-600 to-blue-700 h-2 rounded-full'
                                             style={{ width: '85%' }}
                                         />
                                     </div>
@@ -156,10 +156,10 @@ export function HeroSection() {
 
                             {/* Secondary cards */}
                             <div className='grid grid-cols-2 gap-4'>
-                                <Card className='bg-white/60 backdrop-blur-sm shadow-lg border-green-200'>
+                                <Card className='bg-white/60 backdrop-blur-sm shadow-lg border-blue-200'>
                                     <CardContent className='p-4'>
                                         <div className='flex items-center space-x-2 mb-2'>
-                                            <Users className='w-5 h-5 text-green-600' />
+                                            <Users className='w-5 h-5 text-blue-600' />
                                             <span className='font-semibold text-gray-900'>
                                                 Active Projects
                                             </span>
@@ -167,15 +167,13 @@ export function HeroSection() {
                                         <div className='text-2xl font-bold text-gray-900'>
                                             1,247
                                         </div>
-                                        <div className='text-sm text-green-600'>
-                                            +23% this month
-                                        </div>
+                                        <div className='text-sm text-blue-600'>+23% this month</div>
                                     </CardContent>
                                 </Card>
-                                <Card className='bg-white/60 backdrop-blur-sm shadow-lg border-green-200'>
+                                <Card className='bg-white/60 backdrop-blur-sm shadow-lg border-blue-200'>
                                     <CardContent className='p-4'>
                                         <div className='flex items-center space-x-2 mb-2'>
-                                            <CheckCircle className='w-5 h-5 text-green-600' />
+                                            <CheckCircle className='w-5 h-5 text-blue-600' />
                                             <span className='font-semibold text-gray-900'>
                                                 Success Rate
                                             </span>
@@ -183,7 +181,7 @@ export function HeroSection() {
                                         <div className='text-2xl font-bold text-gray-900'>
                                             98.2%
                                         </div>
-                                        <div className='text-sm text-green-600'>
+                                        <div className='text-sm text-blue-600'>
                                             Industry leading
                                         </div>
                                     </CardContent>
@@ -192,8 +190,8 @@ export function HeroSection() {
                         </div>
 
                         {/* Background decorations */}
-                        <div className='absolute -top-10 -right-10 w-32 h-32 bg-green-600/10 rounded-full blur-3xl' />
-                        <div className='absolute -bottom-10 -left-10 w-40 h-40 bg-green-400/10 rounded-full blur-3xl' />
+                        <div className='absolute -top-10 -right-10 w-32 h-32 bg-blue-600/10 rounded-full blur-3xl' />
+                        <div className='absolute -bottom-10 -left-10 w-40 h-40 bg-blue-400/10 rounded-full blur-3xl' />
                     </motion.div>
                 </div>
             </div>

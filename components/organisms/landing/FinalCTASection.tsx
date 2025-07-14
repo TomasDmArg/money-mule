@@ -32,7 +32,7 @@ export function FinalCTASection() {
     return (
         <section className='w-full relative overflow-hidden'>
             {/* Background with gradient */}
-            <div className='absolute inset-0 bg-gradient-to-br from-green-600 via-green-700 to-green-800' />
+            <div className='absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800' />
 
             {/* Background pattern */}
             <div className='absolute inset-0 bg-[url("data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.1"%3E%3Ccircle cx="30" cy="30" r="1"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")]' />
@@ -51,9 +51,9 @@ export function FinalCTASection() {
                     </div>
                     <h2 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight'>
                         Join the Future of
-                        <span className='text-green-200 block'>Smart Investing</span>
+                        <span className='text-blue-200 block'>Smart Investing</span>
                     </h2>
-                    <p className='text-xl text-green-100 max-w-3xl mx-auto mb-8'>
+                    <p className='text-xl text-blue-100 max-w-3xl mx-auto mb-8'>
                         Stop losing money on bad investments. Start making data-driven decisions
                         with AI-powered insights, automated due diligence, and milestone-based
                         funding.
@@ -78,7 +78,7 @@ export function FinalCTASection() {
                                     <p className='text-white mb-4 italic'>
                                         &ldquo;{testimonial.quote}&rdquo;
                                     </p>
-                                    <div className='text-green-200 text-sm'>
+                                    <div className='text-blue-200 text-sm'>
                                         <div className='font-semibold'>{testimonial.author}</div>
                                         <div>{testimonial.role}</div>
                                     </div>
@@ -100,7 +100,7 @@ export function FinalCTASection() {
                         <Link href='/dashboard' className='w-full sm:w-auto'>
                             <Button
                                 size='lg'
-                                className='w-full sm:w-auto bg-white hover:bg-gray-100 text-green-700 font-bold px-8 py-4 text-lg flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all duration-300'
+                                className='w-full sm:w-auto bg-white hover:bg-gray-100 text-blue-700 font-bold px-8 py-4 text-lg flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all duration-300'
                             >
                                 Start Free Trial
                                 <ArrowRight className='w-5 h-5' />
@@ -108,7 +108,7 @@ export function FinalCTASection() {
                         </Link>
                     </div>
 
-                    <div className='flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-8 text-green-100 text-sm'>
+                    <div className='flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-8 text-blue-100 text-sm'>
                         <div className='flex items-center space-x-2'>
                             <CheckCircle className='w-4 h-4' />
                             <span>14-day free trial</span>
@@ -127,8 +127,8 @@ export function FinalCTASection() {
 
             {/* Decorative elements */}
             <div className='absolute top-10 left-10 w-20 h-20 bg-white/10 rounded-full blur-xl' />
-            <div className='absolute bottom-10 right-10 w-32 h-32 bg-green-400/20 rounded-full blur-2xl' />
-            <div className='absolute top-1/2 left-1/4 w-16 h-16 bg-green-300/10 rounded-full blur-lg' />
+            <div className='absolute bottom-10 right-10 w-32 h-32 bg-blue-400/20 rounded-full blur-2xl' />
+            <div className='absolute top-1/2 left-1/4 w-16 h-16 bg-blue-300/10 rounded-full blur-lg' />
         </section>
     );
 }

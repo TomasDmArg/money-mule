@@ -9,9 +9,9 @@ export const CONTRACTS = {
 // Network Configuration
 export const NETWORK = {
     CHAIN_ID: 2751721147387000,
-    NAME: 'moneymule',
-    RPC_URL: 'https://moneymule-2751721147387000-1.jsonrpc.sagarpc.io',
-    EXPLORER_URL: 'https://moneymule-2751721147387000-1.sagaexplorer.io:443',
+    NAME: 'venturepilot',
+    RPC_URL: 'https://venturepilot-2751721147387000-1.jsonrpc.sagarpc.io',
+    EXPLORER_URL: 'https://venturepilot-2751721147387000-1.sagaexplorer.io:443',
 } as const;
 
 // Default jury addresses (using the factory address as a placeholder instead of zeros)

@@ -17,7 +17,7 @@ interface FaucetResponse {
     success: boolean;
     message: string;
     transactionHashes?: {
-        mule?: string;
+        pilot?: string;
         usdc?: string;
     };
     nextClaimTime?: number;
@@ -101,18 +101,18 @@ export default function FaucetPage() {
 
                 // Show transaction links if available
                 if (data.transactionHashes) {
-                    const explorer = 'https://moneymule-2751721147387000-1.sagaexplorer.io:443';
+                    const explorer = 'https://venturepilot-2751721147387000-1.sagaexplorer.io:443';
 
-                    if (data.transactionHashes.mule) {
+                    if (data.transactionHashes.pilot) {
                         setTimeout(() => {
                             toast.info(
-                                `MULE Transaction: ${data.transactionHashes?.mule?.slice(0, 10)}...`,
+                                `PILOT Transaction: ${data.transactionHashes?.pilot?.slice(0, 10)}...`,
                                 {
                                     action: {
                                         label: 'View',
                                         onClick: () =>
                                             window.open(
-                                                `${explorer}/tx/${data.transactionHashes?.mule}`,
+                                                `${explorer}/tx/${data.transactionHashes?.pilot}`,
                                                 '_blank'
                                             ),
                                     },
@@ -262,7 +262,7 @@ export default function FaucetPage() {
                 <div className='mb-8'>
                     <h1 className='text-3xl font-bold text-gray-900 mb-2'>Token Faucet</h1>
                     <p className='text-gray-600'>
-                        Get free tokens to test the Money Mule platform on Saga Chainlet
+                        Get free tokens to test the VenturePilot platform on Saga Chainlet
                     </p>
                 </div>
 
@@ -281,10 +281,10 @@ export default function FaucetPage() {
                                             M
                                         </div>
                                         <span className='font-semibold text-gray-900'>
-                                            MULE Token
+                                            PILOT Token
                                         </span>
                                     </div>
-                                    <p className='text-2xl font-bold text-green-600'>1 MULE</p>
+                                    <p className='text-2xl font-bold text-green-600'>1 PILOT</p>
                                     <p className='text-sm text-gray-600'>Native platform token</p>
                                 </div>
                                 <div className='bg-blue-50 rounded-lg p-4 border border-blue-200'>
@@ -326,11 +326,10 @@ export default function FaucetPage() {
                                     handleClaimTokens().catch(console.error);
                                 }}
                                 disabled={isLoading || !faucetStatus?.canClaim}
-                                className={`px-8 py-3 rounded-lg font-semibold text-white transition-all ${
-                                    isLoading || !faucetStatus?.canClaim
+                                className={`px-8 py-3 rounded-lg font-semibold text-white transition-all ${isLoading || !faucetStatus?.canClaim
                                         ? 'bg-gray-400 cursor-not-allowed'
                                         : 'bg-green-600 hover:bg-green-700 active:scale-95'
-                                }`}
+                                    }`}
                             >
                                 {renderButtonContent()}
                             </button>

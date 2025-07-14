@@ -54,6 +54,22 @@ const config = {
                     DEFAULT: 'hsl(var(--card))',
                     foreground: 'hsl(var(--card-foreground))',
                 },
+                // VenturePilot Blue Theme
+                venturepilot: {
+                    50: 'hsl(var(--venturepilot-blue-50))',
+                    100: 'hsl(var(--venturepilot-blue-100))',
+                    200: 'hsl(var(--venturepilot-blue-200))',
+                    300: 'hsl(var(--venturepilot-blue-300))',
+                    400: 'hsl(var(--venturepilot-blue-400))',
+                    500: 'hsl(var(--venturepilot-blue-500))',
+                    600: 'hsl(var(--venturepilot-blue-600))',
+                    700: 'hsl(var(--venturepilot-blue-700))',
+                    800: 'hsl(var(--venturepilot-blue-800))',
+                    900: 'hsl(var(--venturepilot-blue-900))',
+                    DEFAULT: 'hsl(var(--venturepilot-blue))',
+                    light: 'hsl(var(--venturepilot-blue-light))',
+                    dark: 'hsl(var(--venturepilot-blue-dark))',
+                },
             },
             borderRadius: {
                 lg: 'var(--radius)',

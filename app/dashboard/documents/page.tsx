@@ -23,7 +23,7 @@ import { Label } from '@/components/ui/label';
 import { Progress } from '@/components/ui/progress';
 
 // Constants
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://backend.moneymule.xyz';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://backend.venturepilot.xyz';
 const STORAGE_KEY = 'document-analyses';
 const ACCEPTED_FILE_TYPES = '.pdf';
 const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
@@ -188,9 +188,8 @@ const DocumentCard = ({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
-            className={`border rounded-lg p-4 transition-all ${
-                isClickable ? 'hover:shadow-md cursor-pointer hover:bg-gray-50' : 'bg-gray-50'
-            }`}
+            className={`border rounded-lg p-4 transition-all ${isClickable ? 'hover:shadow-md cursor-pointer hover:bg-gray-50' : 'bg-gray-50'
+                }`}
             onClick={() => onClick(document)}
         >
             <div className='flex items-start justify-between mb-3'>

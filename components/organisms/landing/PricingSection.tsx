@@ -76,13 +76,13 @@ export function PricingSection() {
                     viewport={{ once: true, amount: 0.3 }}
                     variants={fadeInUp}
                 >
-                    <div className='inline-flex items-center px-4 py-2 rounded-full bg-green-100 text-green-700 text-sm font-medium mb-4'>
+                    <div className='inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4'>
                         <Zap className='w-4 h-4 mr-2' />
                         Flexible Pricing
                     </div>
                     <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6'>
                         Choose Your
-                        <span className='text-green-600 block'>Investment Workflow</span>
+                        <span className='text-blue-600 block'>Investment Workflow</span>
                     </h2>
                     <p className='text-xl text-gray-600 max-w-3xl mx-auto'>
                         Flexible pricing models designed to streamline your investment processes.
@@ -113,13 +113,13 @@ export function PricingSection() {
                                         pointerEvents: 'none',
                                     }}
                                 >
-                                    <div className='inline-flex items-center px-4 py-2 rounded-full bg-green-600 text-white text-sm font-medium shadow-lg'>
+                                    <div className='inline-flex items-center px-4 py-2 rounded-full bg-blue-600 text-white text-sm font-medium shadow-lg'>
                                         <Star className='w-4 h-4 mr-1' />
                                         Most Popular
                                     </div>
                                 </div>
                             )}
-                            <Card className='flex flex-col justify-between h-full min-h-[520px] border-gray-200 hover:border-green-300 transition-all duration-300 hover:shadow-lg relative'>
+                            <Card className='flex flex-col justify-between h-full min-h-[520px] border-gray-200 hover:border-blue-300 transition-all duration-300 hover:shadow-lg relative'>
                                 <CardHeader className='text-center pb-8'>
                                     <CardTitle className='text-2xl font-bold text-gray-900'>
                                         {plan.name}
@@ -137,7 +137,7 @@ export function PricingSection() {
                                             </span>
                                         </div>
                                         {plan.name === 'Professional' && (
-                                            <p className='text-sm text-green-600 mt-2 font-medium'>
+                                            <p className='text-sm text-blue-600 mt-2 font-medium'>
                                                 14-day free trial
                                             </p>
                                         )}
@@ -147,7 +147,7 @@ export function PricingSection() {
                                     <ul className='space-y-3 mb-8'>
                                         {plan.features.map(feature => (
                                             <li key={feature} className='flex items-center'>
-                                                <Check className='w-5 h-5 text-green-600 mr-3 flex-shrink-0' />
+                                                <Check className='w-5 h-5 text-blue-600 mr-3 flex-shrink-0' />
                                                 <span className='text-gray-700'>{feature}</span>
                                             </li>
                                         ))}
@@ -157,11 +157,10 @@ export function PricingSection() {
                                             <Button
                                                 variant={plan.buttonVariant}
                                                 size='lg'
-                                                className={`w-full ${
-                                                    plan.popular
-                                                        ? 'bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white'
-                                                        : 'border-green-600 text-green-700 hover:bg-green-50'
-                                                } flex items-center justify-center gap-2`}
+                                                className={`w-full ${plan.popular
+                                                        ? 'bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white'
+                                                        : 'border-blue-600 text-blue-700 hover:bg-blue-50'
+                                                    } flex items-center justify-center gap-2`}
                                             >
                                                 {plan.buttonText}
                                                 <ArrowRight className='w-4 h-4' />
@@ -188,7 +187,7 @@ export function PricingSection() {
                     <Link href='/dashboard'>
                         <Button
                             variant='ghost'
-                            className='text-green-600 hover:text-green-700 hover:bg-green-50'
+                            className='text-blue-600 hover:text-blue-700 hover:bg-blue-50'
                         >
                             Contact our sales team →
                         </Button>
